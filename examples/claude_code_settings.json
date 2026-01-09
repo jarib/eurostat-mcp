@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "eurostat": {
+      "command": "python",
+      "args": ["/path/to/eurostat-mcp/server.py"]
+    }
+  }
+}

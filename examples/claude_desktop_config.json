@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "eurostat": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/eurostat-mcp",
+        "run",
+        "server.py"
+      ]
+    }
+  }
+}
