@@ -1180,7 +1180,9 @@ async def export_multiple_datasets(
     summary = f"## Export Summary\n\nDirectory: {output_dir.absolute()}\nSuccessful: {successful}\nFailed: {failed}\n\n### Results:\n" + "\n".join(results)
     return summary
 
-
-if __name__ == "__main__":
+def main():
     logger.info("Starting Eurostat MCP server...")
     mcp.run(transport="stdio")
+
+if __name__ == "__main__":
+    main()
